@@ -1,12 +1,12 @@
-tensorflow
-keras
-pandas
-numpy
-jupyter
-notebook
-tqdm
-gunicorn
-flask
-opencv-python
-opencv-contrib-python
-scikit-learn
+tensorflow>=2.6.0  # Specify a minimum version compatible with your project
+keras>=2.6.0       # Ensure compatibility with TensorFlow
+pandas>=1.3.0
+numpy>=1.21.0
+jupyter>=1.0.0
+notebook>=6.4.0
+tqdm>=4.60.0
+gunicorn>=20.0.0
+flask>=2.0.0
+opencv-python-headless>=4.5.0  # Use the headless version for non-GUI environments
+opencv-contrib-python-headless>=4.5.0
+scikit-learn>=1.0.0
